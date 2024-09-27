@@ -17,7 +17,7 @@ void main() {
       'language': 'Dart',
       'framework': 'flutter',
     },
-    2024: 'year',
+    2025: 'year',
   };
   print(name);
   print(id);
