@@ -57,7 +57,7 @@ void main() {
     'temperature': 35.60,
     true: 'Bangladeshi',
     'isIndian': false,
-    1: [1, 2, 3, 4, true, 5.6, 'America'],
+    1: [1, 2, 3, 4, true, 5.6, 'China'],
     'set': {true, false, 121, 'Australia', 99.98},
     'info': {
       1: 'Australia',
