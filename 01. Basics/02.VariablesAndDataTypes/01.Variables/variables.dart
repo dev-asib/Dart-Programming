@@ -89,4 +89,19 @@ void main() {
   print(students);
   print(mobiles);
   print(details);
+
+  const String constName = 'Asib';
+  final String finalName = 'Asib';
+  final int code;
+  code = 201278;
+  late double temperature;
+  temperature = -10.8;
+  double? cgpa;
+  print(cgpa);
+  cgpa = 4.00;
+  print(constName);
+  print(finalName);
+  print(code);
+  print(temperature);
+  print(cgpa);
 }
