@@ -8,8 +8,4 @@ void main() {
 
   Runes myName = Runes(name);
   print(myName);
-
-
-
-
 }
