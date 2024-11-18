@@ -1,7 +1,14 @@
-void main(){
+void main() {
+  // Unary Operators
+  // - (Unary minus): var x = 5; print(-x); // -5
+  // ++ (Increment): x++; print(x);
+  // -- (Decrement): x--; print(x);
+
+
   int x = 10;
   int y = 20;
   int z = 30;
+  int u = 150;
 
   // Prefix Increment and Decrement Operators
   print(--x);
@@ -27,4 +34,6 @@ void main(){
   c++;
   print(c);
 
+  // Unary Minus
+  print(-u);
 }

@@ -1,4 +1,12 @@
 void main() {
+  // Relational (Comparison) Operators
+  // == (Equal to): print(5 == 5); // true
+  // != (Not equal to): print(5 != 3); // true
+  // < (Less than): print(5 < 10); // true
+  // > (Greater than): print(10 > 5); // true
+  // <= (Less than or equal to): print(5 <= 5); // true
+  // >= (Greater than or equal to): print(10 >= 5); // true
+
   String name = "Asib";
   String userName = "Asib";
   String myName = "Samy";

@@ -1,4 +1,9 @@
 void main() {
+  // Logical Operators
+  // && (AND): print(true && false); // false
+  // || (OR): print(true || false); // true
+  // ! (NOT): print(!true); // false
+
   String name = "Asib";
   String userName = "Asib";
   String myName = "Samy";
