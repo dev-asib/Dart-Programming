@@ -52,6 +52,14 @@ void main() {
   );
 
   print(flutterDeveloper.devCity("Dhaka"));
+
+  // SoftwareDeveloper
+  SoftwareDeveloper softwareDeveloper = SoftwareDeveloper(
+    "Flutter",
+    name: "Asib",
+  );
+  print("Tech = ${softwareDeveloper.tech}");
+  softwareDeveloper.info();
 }
 
 // Teacher Class
@@ -161,5 +169,19 @@ class FlutterDeveloper {
 
   String devName() {
     return "Flutter Developer's Name = $name";
+  }
+}
+
+// SoftwareDeveloper Class
+
+class SoftwareDeveloper {
+  late String name;
+  late String tech;
+
+  SoftwareDeveloper(this.tech, {required this.name});
+
+  void info() {
+    print("Name = $name");
+    print("Technology = $tech");
   }
 }
