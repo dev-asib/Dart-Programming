@@ -53,7 +53,7 @@ void main() {
 
   print(flutterDeveloper.devCity("Dhaka"));
 
-  // SoftwareDeveloper
+  // SoftwareDeveloper Class
   SoftwareDeveloper softwareDeveloper = SoftwareDeveloper(
     "Flutter",
     name: "Asib",
@@ -173,7 +173,6 @@ class FlutterDeveloper {
 }
 
 // SoftwareDeveloper Class
-
 class SoftwareDeveloper {
   late String name;
   late String tech;
