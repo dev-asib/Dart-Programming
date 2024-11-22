@@ -60,6 +60,10 @@ void main() {
   );
   print("Tech = ${softwareDeveloper.tech}");
   softwareDeveloper.info();
+
+  // ABC Class
+  ABC();
+  ABC abc = ABC();
 }
 
 // Teacher Class
@@ -182,5 +186,11 @@ class SoftwareDeveloper {
   void info() {
     print("Name = $name");
     print("Technology = $tech");
+  }
+}
+
+class ABC{
+  ABC(){
+    print("This is ABC Class");
   }
 }
